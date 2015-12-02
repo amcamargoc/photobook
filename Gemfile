@@ -15,6 +15,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'foundation-rails', '~> 5.5', '>= 5.5.3.2'
+gem 'paperclip', '~> 4.3', '>= 4.3.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -45,5 +46,7 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'quiet_assets'
 end
 
