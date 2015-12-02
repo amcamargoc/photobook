@@ -16,6 +16,7 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'foundation-rails', '~> 5.5', '>= 5.5.3.2'
 gem 'paperclip', '~> 4.3', '>= 4.3.2'
+gem 'devise', '~> 3.5', '>= 3.5.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
