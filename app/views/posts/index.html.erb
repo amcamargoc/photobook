@@ -1,9 +1,5 @@
-<p id="notice"><%= notice %></p>
-
-<%= link_to 'New Post', new_post_path %>
+<%= link_to 'New Post', new_post_path, class:"button secondary" %>
 
 <% @posts.each do |post| %>
-
-<%= render 'post', post: post %>
-
+  <%= render 'post', post: post %>
 <% end %>
